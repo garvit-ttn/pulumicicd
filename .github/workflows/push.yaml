@@ -23,6 +23,6 @@ jobs:
         with:
           command: preview
           stack-name: cvm-jobs-dev # When using an individual account, only use stack-name.
-          work-dir: ./jobs
+          work-dir: ./base
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
