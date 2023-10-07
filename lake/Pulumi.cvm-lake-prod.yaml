@@ -1,0 +1,6 @@
+encryptionsalt: v1:zWzHa8bxuGQ=:v1:VFgOJZPjh1hHpNwf:kvUjkORpYkWD5TRaAVv4RXp4gqR8Sg==
+config:
+  aws:profile: maf-prod
+  aws:region: eu-west-1
+  aws-native:region: eu-west-1
+  cmv-lake:environment: prod

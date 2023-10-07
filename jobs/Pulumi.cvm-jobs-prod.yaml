@@ -1,0 +1,5 @@
+encryptionsalt: v1:cAaq6G25CBU=:v1:qYfIbHcAvGgCxt9u:/d+2W5WEPgKPE7/WHoBJ0BDIXYooKA==
+config:
+  aws:profile: maf-prod
+  aws:region: eu-west-1
+  cmv-jobs:environment: prod

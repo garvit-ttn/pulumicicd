@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "cvm-sm-pipelines"
+version = "0.1.0"
+description = ""
+authors = ["Krzysztof Sadowski <krzysztof@sadowski.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pulumi = "^3.79.0"
+pulumi-aws = "^5.42.0"
+pulumi-aws-native = "^0.75.0"
+pulumi-random = "^4.12.1"
+pulumi-command = "^0.8.2"
+stepfunctions = "^2.3.0"
+awsglue3-local = "^1.0.0"
+pyspark = "^3.3.0"
+delta-spark = "^2.3.0"
+sagemaker-feature-store-pyspark-3-3 = "^1.1.1"
+openpyxl = "^3.1.2"
+pandoc = "^2.3"
+pydevd-pycharm = "^232.5150.120"
+pyarrow = "^12.0.0"
+faker = "=19.2.0"
+pytest = "^7.3.0"
+build = "^0.10.0"
+requests = "^2.30.0"
+boto3 = "^1.26.129"
+sqlglot = "=16.3.1"
+jupyter = "^1.0.0"
+opensearch-py = "=2.3.0"
+cvm-shared = {path = "shared/src", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

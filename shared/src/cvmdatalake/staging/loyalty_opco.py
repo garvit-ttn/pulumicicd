@@ -1,0 +1,52 @@
+from cvmdatalake import TableSpec, ColumnSpec
+
+
+class LoyaltyOpco(TableSpec):
+    @classmethod
+    def table_description(cls):
+        return "Provides mapping from braze/external id to app_group/bu"
+
+    opco_key = ColumnSpec(
+        data_type='bigint',
+        description=''
+    )
+
+    code = ColumnSpec(
+        data_type='string',
+        description=''
+    )
+
+    opco_name = ColumnSpec(
+        data_type='string',
+        description=''
+    )
+
+    active_flag = ColumnSpec(
+        data_type='boolean',
+        description=''
+    )
+
+    created_ts = ColumnSpec(
+        data_type='timestamp',
+        description=''
+    )
+
+    updated_ts = ColumnSpec(
+        data_type='timestamp',
+        description=''
+    )
+
+    ods_processing_ts = ColumnSpec(
+        data_type='timestamp',
+        description=''
+    )
+
+    grid_ins_ts = ColumnSpec(
+        data_type='timestamp',
+        description=''
+    )
+
+    grid_upd_ts = ColumnSpec(
+        data_type='timestamp',
+        description=''
+    )

@@ -1,0 +1,5 @@
+encryptionsalt: v1:llp5LAE6f5k=:v1:jizYvDcjuuQdzyvl:M4cf/LUYrhXEuiUYDub2NZy/w5SqMA==
+config:
+  aws:profile: maf-uat
+  aws:region: eu-west-1
+  cmv-jobs:environment: uat

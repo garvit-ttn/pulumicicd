@@ -1,0 +1,5 @@
+encryptionsalt: v1:H+NXvLK3has=:v1:0Wm5e7d+xKCTmTS4:Kk+GQsTn6uJlQcxTegKNZrp0yZwfXg==
+config:
+  aws:profile: maf-dev
+  aws:region: eu-west-1
+  cmv-jobs:environment: gar

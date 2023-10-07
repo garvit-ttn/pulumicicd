@@ -1,0 +1,29 @@
+encryptionsalt: v1:W/TC8y0lC/s=:v1:7OVd3gecZv9fMgPL:CYeI9VDXliRBTb4hcPQkblLKECOm2g==
+config:
+  aws-native:region: eu-west-1
+  aws:profile: maf-uat
+  aws:region: eu-west-1
+  cmv-base:cvm-braze-auth-key:
+    secure: v1:TwY2jiyjX6TztWDE:c/EKCSKif//HcJ2YXokPgC49cb39l5nEZLZe0E/l3Zv8zmXOXtx8TYlsClnGM6Cat6WydHOJkBTYWDjxLruFi5sZpZJhZ1U6Ju6DbfRu8iRk8H07
+  cmv-base:cvm-braze-push-auth-url: https://maf-holding-dev.apigee.net/v1/oauth/generate?grant_type=client_credentials
+  cmv-base:cvm-braze-push-url: https://maf-holding-dev.apigee.net/v1/kafka/postrecords?topicName=holding.cvm.dev.braze.offer.stream
+  cmv-base:cvm-offers-db-name: cvm_uat
+  cmv-base:cvm-offers-mgmt-db-password:
+    secure: v1:BlRhWh0H9ZpI1Qi1:4UFj7btIdFf9BJe9frZlzE+I1g1A89SLMSy5Nw==
+  cmv-base:dms_security_group: sg-056ba6d3629dc456d
+  cmv-base:dms_subnets:
+    - subnet-080246d53347f68cf
+    - subnet-0421e8689b71e4d61
+  cmv-base:environment: uat
+  cmv-base:maf_vpc_id: vpc-0a3372d3ce74cb876
+  cmv-base:rds_host:
+    secure: v1:ucTt/aFBZG8WoBvX:HNvLdsyz4Mbc7sWQ05sy/0viL6VGFY0eplWOYw1wBOhWweSuIOgt3cgh9ER+Cytujx3AFgZeZyCtD20soBRuv2R5R6n+24S/w5fz
+  cmv-base:rds_security_group: sg-07d7a53351b92e993
+  cmv-base:sagemaker_subnets:
+    a: 10.147.130.0/25
+    b: 10.147.130.128/25
+  cmv-base:skip_dms_setup: "false"
+  cmv-base:sm-exec-role-arn: "arn:aws:iam::922679696718:role/cvm-sagemaker-execution-role-336f806"
+  cmv-base:cvm-braze-push-auth-secret_name: "cvm-braze-push-auth-secret-2f1b603"
+  cmv-base:rds_cvm_connection_name: "cvm-connection-rds-cfc4396"
+  cmv-base:cvm-offers-db-password-secret-name: "cvm-rds-password-secret-3f2c9d1"

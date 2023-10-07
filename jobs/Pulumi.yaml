@@ -1,0 +1,5 @@
+name: cmv-jobs
+description: CVM core data transformation jobs
+runtime: python
+backend:
+  url: s3://cvm-pulumi-backend?region=eu-west-1&awssdk=v2&profile=maf-dev

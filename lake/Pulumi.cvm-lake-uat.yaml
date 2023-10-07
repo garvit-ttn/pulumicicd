@@ -1,0 +1,6 @@
+encryptionsalt: v1:ymaVvrrKeds=:v1:KHyrrIjXqrS5QkgG:GCndpSwbMW96rOIPs/PWggpudCFbbg==
+config:
+  aws:profile: maf-uat
+  aws:region: eu-west-1
+  aws-native:region: eu-west-1
+  cmv-lake:environment: uat

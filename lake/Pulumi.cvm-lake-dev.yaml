@@ -1,0 +1,9 @@
+encryptionsalt: v1:nLLPy9sj1lo=:v1:fQQ3/BLClcaer4xC:3BWpJeGJRrAgNLw4tmuMIPU9JoDyTQ==
+config:
+  aws:profile: maf-dev
+  aws:region: eu-west-1
+  aws-native:region: eu-west-1
+  cmv-lake:environment: dev
+  cmv-lake:landing_bucket_name: cvm-dev-landing-329514e
+  cmv-lake:staging_bucket_name: cvm-dev-staging-f67b192
+  cmv-lake:conformed_bucket_name: cvm-dev-conformed-111daca

@@ -1,0 +1,6 @@
+encryptionsalt: v1:mnU6ShqS/Ww=:v1:SJ7xNptq/G1w7zZr:0stSykxMKPpP8r4SXS1ev1SVTFrHJA==
+config:
+  aws:profile: maf-dev
+  aws:region: eu-west-1
+  aws-native:region: eu-west-1
+  cmv-lake:environment: ish

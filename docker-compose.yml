@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+
+  pipelines-dev-env:
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    build: .
+    volumes:
+      - .pulumi:/pipelines/.pulumi
+      - ~/.aws/:/root/.aws
+    #    ports:
+    #      - "8000:8000"
+    env_file:
+      - .env
+
+  glue-local:
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    image: amazon/aws-glue-libs:glue_libs_4.0.0_image_01
+    volumes:
+      - ~/.aws/:/home/glue_user/.aws:ro
+      - ./jobs/:/home/glue_user/workspace/:rw
+    environment:
+      - AWS_PROFILE=maf-dev
+      - AWS_REGION=us-east-1
+      - DISABLE_SSL=true
+    ports:
+      - "4040:4040"
+      - "18080:18080"
+      - "8888:8888" # Jupyter

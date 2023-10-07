@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pulumi-aws = "*"
+pulumi = "*"
+pulumi-aws-native = "*"
+stepfunctions = "*"
+pulumi-random = "*"
+pulumi-command = "*"
+aws = "*"
+awsglue3-local = "*"
+pyspark = "*"
+"sagemaker-feature-store-pyspark-3.3" = "*"
+jupyter = "*"
+build = "*"
+pytest = "*"
+faker = "*"
+pyarrow = "*"
+cvm-shared = {path = "./shared/src"}
+delta-spark = "*"
+openpyxl = "*"
+pandoc = "*"
+pydevd-pycharm = "~=231.8109.197"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

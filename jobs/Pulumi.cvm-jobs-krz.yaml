@@ -1,0 +1,5 @@
+encryptionsalt: v1:qXu76kZqlI8=:v1:tkTlUEqRlrCP3lAR:fW/3VU8fVJ78Avfirih2xABYfWu5Kw==
+config:
+  aws:profile: maf-dev
+  aws:region: eu-west-1
+  cmv-jobs:environment: krz
