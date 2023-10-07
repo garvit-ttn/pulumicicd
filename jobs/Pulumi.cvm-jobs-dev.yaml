@@ -1,6 +1,5 @@
 encryptionsalt: v1:IxN++y72xfU=:v1:VC60nleSXaa31W6+:ijMbrRXfS1la4t9ui4UAl8Q2j6/LKA==
 config:
-  aws:profile: maf-dev
   aws:region: eu-west-1
   cmv-jobs:environment: dev
   cmv-jobs:misc_bucket_name: "cvm-misc-cf64472"
